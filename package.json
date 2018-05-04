@@ -1,0 +1,26 @@
+{
+  "name": "sprint-challenge-node-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Nschennum/Sprint-Challenge-Node-Express.git",
+  "author": "Natalie Schennum <natalieschennum@gmail.com>",
+  "license": "MIT",
+
+   "scripts": {
+  "start": "nodemon server.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+"devDependencies": {
+  "nodemon": "^1.17.3"
+},
+  "dependencies": {
+    "and": "^0.0.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.12.0",
+    "knex": "^0.14.6",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.3",
+    "sqlite3": "^4.0.0"
+  }
+}
